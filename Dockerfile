@@ -3,6 +3,7 @@ FROM debian:bullseye-slim
 RUN apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y \
     texlive-base \
+    texlive-lang-german \
     texlive-binaries \
     texlive-fonts-recommended \
     texlive-latex-base \
